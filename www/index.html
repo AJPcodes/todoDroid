@@ -14,6 +14,7 @@
 
     <!-- ionic/angularjs js -->
     <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script src="lib/ngCordova/dist/ng-cordova.min.js"></script>
 
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
@@ -36,6 +37,7 @@
           <i class="icon ion-compose"></i>
         </button>
       </ion-header-bar>
+
       <ion-content scroll="false">
         <ion-list>
           <ion-item ng-repeat="task in activeProject.tasks">
