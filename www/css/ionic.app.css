@@ -9732,7 +9732,19 @@ a.button {
   transition-duration: 0s; }
 
 ion-side-menu-content {
-  background-image: url("https://s-media-cache-ak0.pinimg.com/736x/83/c3/ee/83c3ee4c30e597fa522850c018c7c660.jpg"); }
+  background-image: url("https://pixabay.com/static/uploads/photo/2012/11/11/07/37/green-65684_960_720.jpg"); }
 
 ion-side-menu {
-  background-image: url("http://www.auburnkidsdentist.com/wp-content/uploads/2012/11/APD_Background.jpg"); }
+  background-image: url("https://pixabay.com/static/uploads/photo/2012/11/11/07/37/green-65684_960_720.jpg"); }
+
+ion-item.item {
+  background-color: rgba(255, 255, 255, 0.1); }
+
+ion-item.item.active {
+  background-color: rgba(255, 255, 255, 0.5);
+  text-shadow: 1px 1px 4px #444; }
+
+ion-item.item a {
+  color: #f8f8f8;
+  background-color: rgba(255, 255, 255, 0.25);
+  text-shadow: 1px 1px 2px #444; }
