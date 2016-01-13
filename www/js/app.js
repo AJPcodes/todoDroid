@@ -137,9 +137,7 @@ angular.module('todo', ['ionic', 'ngCordova'])
 
   $scope.deleteTask = function(taskIndex) {
     $scope.activeProject.tasks.splice(taskIndex, 1);
-
     Projects.save($scope.projects);
-
   };
 
   $scope.closeNewTask = function() {
@@ -220,7 +218,7 @@ angular.module('todo', ['ionic', 'ngCordova'])
                 $scope.measurements.timestamp = result.timestamp;
 
                 // Detecta shake
-                console.log('trying to detect shake');
+                // console.log('trying to detect shake');
                 $scope.detectShake(result);
 
             });
